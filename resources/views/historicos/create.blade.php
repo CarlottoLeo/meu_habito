@@ -21,7 +21,7 @@
                 ['class'=>'form-control']) !!}
 
             {!! Form::label('data', 'Data:') !!}
-            {!! Form::text('data', null, ['class'=>'form-control']) !!}
+            {!! Form::date('data', null, ['class'=>'form-control']) !!}
 
             {!! Form::label('hora', 'Hora:') !!}
             {!! Form::text('hora', null, ['class'=>'form-control'])  !!}
