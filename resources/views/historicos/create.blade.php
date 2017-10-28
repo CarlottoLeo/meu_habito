@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <h1>Novo Histórico</h1>
-    
+
         @if ($errors->any())
             <ul class="alert alert-danger">
                 @foreach($errors->all() as $error)
@@ -25,12 +25,12 @@
 
             {!! Form::label('hora', 'Hora:') !!}
             {!! Form::text('hora', null, ['class'=>'form-control'])  !!}
-            
 
+            <br>
             {!! Form::submit('Criar histórico', ['class' => 'btn btn-primary']) !!}
         </div>
-    
+
         {!! Form::close() !!}
-    
+
     </div>
 @endsection

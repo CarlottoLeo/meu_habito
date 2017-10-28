@@ -10,6 +10,6 @@ class Habito extends Model
         'tp_habito', 'dt_inicio_ctrl', 'objetivo'];
 
     public function historicos() {
-        return $this->hasMany('App\historico');
+        return $this->hasMany('App\Historico');
     }
 }
